@@ -30,6 +30,9 @@ print(df.columns)
 print(df.info())
 print(df[["product","quantity",]].max())
 print(df[["product","quantity",]].min())
+# product only electronics
 print(df[df["category"]=="Electronics"])
+# price more than 25000
 print(df[df["price"]>25000])
+# quantity more than 20 
 print(df[df["quantity"]>20])
