@@ -45,3 +45,7 @@ print(df.loc[2])
 print(df.iloc[1])
 print(df.iloc[df["price"].idxmax()])
 print(df.iloc[df["price"].idxmin()])
+# adding new columns
+df['revenue']=df["price"]*df["quantity"]
+print(df)
+df.loc[1,"name","age"]
