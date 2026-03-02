@@ -8,4 +8,4 @@ students={
 df=pd.DataFrame(students)
 # print(df)
 # print(df[1:2])
-print(df[["name","age"]])
+print(df[["name","age","course"]])
